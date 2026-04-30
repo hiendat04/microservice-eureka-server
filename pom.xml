@@ -36,6 +36,10 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>io.micrometer</groupId>
+			<artifactId>micrometer-registry-prometheus</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
@@ -74,7 +78,7 @@
 				<version>3.5.1</version>
 				<configuration>
 					<to>
-						<image>hiendat04/${project.artifactId}:v5</image>
+						<image>hiendat04/${project.artifactId}:v7</image>
 					</to>
 				</configuration>
 			</plugin>
